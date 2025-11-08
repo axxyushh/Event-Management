@@ -3,21 +3,27 @@ export default function About() {
     <div
       style={{
         textAlign: 'center',
-        marginTop: '20px',
-        padding: '20px',
-        backgroundColor: '#f0f8ff',
-        borderRadius: '10px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+        marginTop: '40px',
+        padding: '40px 20px',
+        background: 'linear-gradient(135deg, #e6f2ff, #f9f9ff)',
+        borderRadius: '16px',
+        boxShadow: '0 6px 16px rgba(0, 0, 0, 0.15)',
+        maxWidth: '800px',
+        marginInline: 'auto',
       }}
     >
-      <h4 style={{ color: '#2c3e50', fontSize: '24px', marginBottom: '10px' }}>
-        Hello all,
-      </h4>
-      <p style={{ color: '#34495e', fontSize: '18px', lineHeight: '1.6' }}>
-        As a part of our skill development project this semester, we have made
-        this event management platform which has 3 pages: <strong>Customer</strong>,{' '}
-        <strong>Admin</strong>, and <strong>Manager</strong>. Please go through
-        them and give us your feedback.
+      <h2 style={{ color: '#1a3c6e', fontSize: '28px', marginBottom: '15px' }}>
+        Welcome to the Event Management Platform 🎉
+      </h2>
+
+      <p style={{ color: '#2f4f4f', fontSize: '18px', lineHeight: '1.8' }}>
+        As part of our <strong>Skill Development Project</strong> this semester, 
+        we’ve developed a full-featured platform to help organize and manage events efficiently.
+        <br />
+        The platform includes three key modules — <strong>Customer</strong>,{' '}
+        <strong>Admin</strong>, and <strong>Manager</strong>.
+        <br />
+        Explore each section and share your valuable feedback with us!
       </p>
     </div>
   );
